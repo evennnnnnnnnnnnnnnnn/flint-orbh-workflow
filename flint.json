@@ -1,0 +1,12 @@
+{
+  "version": "0.7.0",
+  "id": "c78a22dd-e1f2-47ad-8d1f-f63d72d1fa45",
+  "type": "flint",
+  "created": "2026-09-09T09:04:21.854Z",
+  "migrations": {},
+  "pending": [],
+  "shards": {
+    "f": "0.2.0",
+    "foh": "0.4.0"
+  }
+}

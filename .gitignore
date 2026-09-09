@@ -1,0 +1,20 @@
+# === Flint Managed (do not edit) ===
+# Flint internals
+.flint/
+.steel/
+.obsidian/
+.mesh/
+.orbh/
+.orb/spaces/local/
+Shards/(Shards) Local State/
+
+# Workspace (machine-specific)
+Workspace/Repos/
+# === End Flint Managed ===
+
+# Local runtime state and credentials
+.orb/
+.env
+.env.*
+!.env.example
+*.log
