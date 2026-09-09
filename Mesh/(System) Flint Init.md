@@ -40,10 +40,10 @@ credentials, transcripts, and application artifacts out of both repositories.
 
 ## Operating existing workflows
 
-The Artwork Valuation Engine Flint retains a compatibility link at its former
-`Workspace/Repos/orbh-workflows/` path. Keep its workflow commands' original
-working directory and data-directory settings: moving code does not migrate
-Orbh sessions or workflow ledgers. Run a UI from an ordinary operator terminal
+The former checkout path and references in the Artwork Valuation Engine Flint
+have been removed. Invoke the CLI and UI using this Flint's checkout path.
+For existing workflows, keep their original working directory and data-directory
+settings: moving code does not migrate Orbh sessions or workflow ledgers. Run a UI from an ordinary operator terminal
 for operator actions; agent-started UIs remain read-only.
 
 # Entry

@@ -79,6 +79,15 @@ No real workflow was started, approved, cancelled, or rebound by this review.
 The existing server remains running; restart it normally when ready to load the
 new build. Keep its original Flint working directory and external state settings.
 
+## Subsequent removal from the application Flint
+
+At the operator's request, the compatibility symlink, codebase reference, Flint
+reference, and generated reference notes were removed from Artwork Valuation
+Engine after extraction. Its historical workflow artifacts and live state remain.
+Use the new checkout's absolute CLI/UI path for future invocations; the old path
+is no longer available. The preservation and smoke results above describe the
+extraction checks before this removal.
+
 ## Existing limits
 
 - Workers run serially per project; `maxLiveWorkers` is constrained to one.
