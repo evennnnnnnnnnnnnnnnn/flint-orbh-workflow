@@ -12,4 +12,5 @@ dev-local = []
 [workspace]
 repositories = [
   { name = "orbh-workflows", url = "https://github.com/NUU-Cognition/orbh-workflows.git" },
+  { name = "orbh-unified", url = "https://github.com/NUU-Cognition/orbh-unified.git" },
 ]

@@ -7,6 +7,7 @@ authors:
   - "[[@Even]]"
 orbh-sessions:
   - "[[f81b7003-0a65-4575-b9be-ad891a73ce62]]"
+  - "[[59dc248d-7ddd-4af7-9730-d78b47053164]]"
 ---
 
 # Orbh Workflow
@@ -34,7 +35,19 @@ Read its `AGENTS.md`, `README.md`, `docs/PLAN.md`, and
 Use Node >=24. From the repository, `npm ci --include=dev` installs dependencies
 and `npm run verify` runs typecheck, lint, tests, and build.
 
-The Flint repository and implementation repository are independent Git roots.
+## Unified session interface
+
+`Workspace/Repos/orbh-unified/` (declared in `flint.toml`) is the machine-wide
+interface over every Orbh session across every Flint: it scans each registered
+Orb store through documented `flint orbh --json` verbs, merges the orchestrator
+manager and process registries, ranks sessions by attention, and exposes a CLI,
+a loopback JSON/SSE server (`node dist/cli.js serve`, port 4319), and a browser
+UI. Its purpose is to let one assistant agent monitor and act on all projects
+from a single surface; the agent contract is `docs/ASSISTANT.md` in that
+repository. Read its `AGENTS.md` and `README.md` before working on it. Same
+Node >=24 toolchain: `npm install --include=dev` and `npm run verify`.
+
+The Flint repository and implementation repositories are independent Git roots.
 `Workspace/Repos/` is excluded from the Flint repository. Keep runtime ledgers,
 credentials, transcripts, and application artifacts out of both repositories.
 
@@ -52,3 +65,5 @@ for operator actions; agent-started UIs remain read-only.
 - [Framework README](../Workspace/Repos/orbh-workflows/README.md)
 - [CLI usage](../Workspace/Repos/orbh-workflows/docs/USAGE.md)
 - [Local UI](../Workspace/Repos/orbh-workflows/docs/LOCAL-UI.md)
+- [Unified interface README](../Workspace/Repos/orbh-unified/README.md)
+- [Assistant contract](../Workspace/Repos/orbh-unified/docs/ASSISTANT.md)
