@@ -8,6 +8,7 @@ authors:
 orbh-sessions:
   - "[[f81b7003-0a65-4575-b9be-ad891a73ce62]]"
   - "[[59dc248d-7ddd-4af7-9730-d78b47053164]]"
+  - "[[c396bc12-7600-4d48-a452-0d4bc1e08759]]"
 ---
 
 # Orbh Workflow
@@ -67,3 +68,4 @@ for operator actions; agent-started UIs remain read-only.
 - [Local UI](../Workspace/Repos/orbh-workflows/docs/LOCAL-UI.md)
 - [Unified interface README](../Workspace/Repos/orbh-unified/README.md)
 - [Assistant contract](../Workspace/Repos/orbh-unified/docs/ASSISTANT.md)
+- [Harness and assistant plan](../Workspace/Repos/orbh-unified/docs/HARNESS.md) — proposed design for the session harness and the single assistant session (not built).
