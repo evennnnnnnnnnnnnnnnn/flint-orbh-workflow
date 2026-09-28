@@ -5,6 +5,7 @@ type = "flint"
 [shards]
 flint = { source = "@nuucognition/flint", git = "NUU-Cognition/shard-flint" }
 orbh = { source = "@nuucognition/orbh", git = "NUU-Cognition/shard-orbh" }
+invironments = { source = "NUU-Cognition/shard-invironments" }
 
 [workspace]
 repositories = [

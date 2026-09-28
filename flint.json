@@ -196,6 +196,155 @@
           "hash": "d5e7c5a8d969a19d8687eb0796f0160733d1f6b8271da76fadd78f88e4e97c37"
         }
       }
+    },
+    "334b1e97-d573-410a-bf72-9691fc33da07": {
+      "spec": "shard-record/0.3",
+      "shard": "@nuucognition/invironments",
+      "alias": "invironments",
+      "shorthand": "ie",
+      "name": "Invironments",
+      "address": "@nuucognition/shard/invironments",
+      "version": "0.1.2",
+      "state": {
+        "kind": "snapshot",
+        "sha": "03da5d6eff236027338600e6e723e1ebfb8fe4aa",
+        "hash": "1a16eefbc9c6b2c34e50e8b82a2ded370f7d58179c79b43c7416cd8c76ea2a8b"
+      },
+      "source": {
+        "id": "cd9414ba-9860-411a-8670-6561df2b5e3e",
+        "git": "NUU-Cognition/shard-invironments"
+      },
+      "resolved": {
+        "repo": "NUU-Cognition/shard-invironments",
+        "sha": "03da5d6eff236027338600e6e723e1ebfb8fe4aa"
+      },
+      "package": {
+        "hash": "1a16eefbc9c6b2c34e50e8b82a2ded370f7d58179c79b43c7416cd8c76ea2a8b",
+        "files": [
+          {
+            "path": "Shards/Invironments/init-ie.md",
+            "sha256": "6801c2dca63b2a9295bcbac82fd04c6a72349cc117fb4ee59df7b1f05e2e9984"
+          },
+          {
+            "path": "Shards/Invironments/install/inst-ie-plugin_commands.js",
+            "sha256": "da32dba1b5762e2cad24d3c383602d5342eaa6ced9d68c0ab10173b67f0eb03b"
+          },
+          {
+            "path": "Shards/Invironments/install/otmp-ie-note.md",
+            "sha256": "2bbc0ae53f55b1d1583ceaa768b16a948187e5549ee711f34ac13c047ed8849b"
+          },
+          {
+            "path": "Shards/Invironments/install/type-ie-group.md",
+            "sha256": "b1c4027d9a0473fcd187f17d76c689c7baba22dbf589f80f81767c9426e1a9ea"
+          },
+          {
+            "path": "Shards/Invironments/install/type-ie-note.md",
+            "sha256": "6e777c04d27f6be12aa585266d8c379813e1fde5d9ff3cbec01f7bf821889274"
+          },
+          {
+            "path": "Shards/Invironments/install/type-ie-section.md",
+            "sha256": "9c5dffb9bdc950b3cfd7b9a5f5e285cd61772ee404ae31b8d79cc53b9b290e35"
+          },
+          {
+            "path": "Shards/Invironments/knowledge/knw-ie-model.md",
+            "sha256": "d8b41f90d15fba5868ed4106d2b3f946d82f00b10eab7d6ed3076791fb88dee5"
+          },
+          {
+            "path": "Shards/Invironments/scripts/group.js",
+            "sha256": "bcca6e49c3f156166958978c8910340702f35dcb42b89b4890496d6d3114ff05"
+          },
+          {
+            "path": "Shards/Invironments/scripts/list.js",
+            "sha256": "a44685a3ec34f44e7e223a4b0401b816357940ccd01a05f25a277d957633dd1c"
+          },
+          {
+            "path": "Shards/Invironments/scripts/load.js",
+            "sha256": "8794a64de8da44b92d78b31c2172337fd39d83cdbd7ba488efe90ef1217641b2"
+          },
+          {
+            "path": "Shards/Invironments/scripts/note.js",
+            "sha256": "80a3449e6162ecf6c3cac5e7fc420ed759e506f3c34cec6de9b9064981ec8b58"
+          },
+          {
+            "path": "Shards/Invironments/scripts/section.js",
+            "sha256": "29df6cc113a3aa5635b260a5a1a6aff7581deb8eda5d94e4d0792975cdb43905"
+          },
+          {
+            "path": "Shards/Invironments/shard.yaml",
+            "sha256": "85da13796b1aadb650a81e7339ba4c3035249a8322127ee88b77a7c9f639df76"
+          },
+          {
+            "path": "Shards/Invironments/skills/sk-ie-create_section.md",
+            "sha256": "43cc59da7871848cbc6a93ddfba465ac2dde6ebdf07c83d0d69c37fb4df1b389"
+          },
+          {
+            "path": "Shards/Invironments/templates/tmp-ie-group-v0.1.md",
+            "sha256": "5dda9f5224744f1f47775bec0d3d55d460324e9e7f72b2939235340ccdc759fd"
+          },
+          {
+            "path": "Shards/Invironments/templates/tmp-ie-note-v0.1.md",
+            "sha256": "6b53d498391ce428141d8cd578855b3b3b2f385051e2d44212aed6142ff14fed"
+          },
+          {
+            "path": "Shards/Invironments/templates/tmp-ie-section-v0.1.md",
+            "sha256": "8b699d6404f18c0063185e6f0807d4d097ad9a63488b8a2955bfee8a75b8f100"
+          },
+          {
+            "path": "Shards/Invironments/workflows/wkfl-ie-refresh.md",
+            "sha256": "22d98ec945bf342ed35cc8c60c43affd17ecf20a2aaf0451d9350938649bc96f"
+          }
+        ]
+      },
+      "payloads": [
+        {
+          "path": "Mesh/Metadata/Types/(Type) Section (Invironments Shard).md",
+          "id": "3e9c7a14-2b6d-4f08-9a51-7c4e2d8b6f30",
+          "sha256": "731fbe9ea107a573465d8788273dc6a4fc6e41108e7f4cffc375e75b97aba627",
+          "mode": "once",
+          "kind": "type"
+        },
+        {
+          "path": "Mesh/Metadata/Types/(Type) Group (Invironments Shard).md",
+          "id": "5b1d8c22-7e4f-4a39-9c60-2f8b3d1e9a47",
+          "sha256": "e6757b46893b1d69a3ef8bd4ad7b3dae006460ad4daae2c13e4f673ab989ec32",
+          "mode": "once",
+          "kind": "type"
+        },
+        {
+          "path": "Mesh/Metadata/Types/(Type) Note (Invironments Shard).md",
+          "id": "8d2f6e10-4c93-4a27-bf85-1e6a9d3c70b2",
+          "sha256": "df69c5492c745d83b18071ab3fba6610ac5998e62e12cf43c74a4321568c0607",
+          "mode": "once",
+          "kind": "type"
+        },
+        {
+          "path": "Shards/(Shards) Obsidian Templates/otmp-ie-note.md",
+          "sha256": "2bbc0ae53f55b1d1583ceaa768b16a948187e5549ee711f34ac13c047ed8849b",
+          "mode": "force",
+          "kind": "note-template"
+        },
+        {
+          "path": "Shards/(Shards) Plugin Commands/ie.js",
+          "sha256": "6fb6bfca0f0e7a330133e06728c36bc4fa17418bf00868755dc72f1c5a0fd20d",
+          "mode": "force",
+          "kind": "install"
+        }
+      ],
+      "folders": [
+        "Mesh/Metadata/Types",
+        "Shards/(Shards) Plugin Commands",
+        "Shards/Invironments",
+        "Shards/Invironments/assets",
+        "Shards/Invironments/install",
+        "Shards/Invironments/knowledge",
+        "Shards/Invironments/scripts",
+        "Shards/Invironments/skills",
+        "Shards/Invironments/templates",
+        "Shards/Invironments/workflows"
+      ],
+      "setup": "none",
+      "migrations": {},
+      "pending": []
     }
   },
   "obsidian": {
