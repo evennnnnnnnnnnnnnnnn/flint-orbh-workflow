@@ -1,13 +1,10 @@
 [flint]
 name = "Orbh Workflow"
+type = "flint"
 
 [shards]
-installed = [
-  { name = "flint", remote = "NUU-Cognition/shard-flint" },
-  { name = "orbh", remote = "NUU-Cognition/shard-orbh" },
-]
-dev-remote = []
-dev-local = []
+flint = { source = "@nuucognition/flint", git = "NUU-Cognition/shard-flint" }
+orbh = { source = "@nuucognition/orbh", git = "NUU-Cognition/shard-orbh" }
 
 [workspace]
 repositories = [

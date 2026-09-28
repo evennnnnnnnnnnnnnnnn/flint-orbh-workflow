@@ -1,7 +1,10 @@
 ---
 name: "Orbh Workflow"
+type: "flint"
 ---
 
 # Orbh Workflow
 
-A Flint workspace.
+A Flint.
+
+- **Type**: `flint`

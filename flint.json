@@ -3,10 +3,204 @@
   "id": "c78a22dd-e1f2-47ad-8d1f-f63d72d1fa45",
   "type": "flint",
   "created": "2026-09-09T09:04:21.854Z",
-  "migrations": {},
+  "migrations": {
+    "flint-0.6.0-to-0.7.0-s1": "2026-09-28T14:37:36.558Z",
+    "flint-0.6.0-to-0.7.0-s2": "2026-09-28T14:37:36.596Z",
+    "flint-0.6.0-to-0.7.0-s5": "2026-09-28T14:37:36.610Z",
+    "flint-0.6.0-to-0.7.0-s6": "2026-09-28T14:37:36.661Z",
+    "flint-0.6.0-to-0.7.0-s7": "2026-09-28T14:37:36.678Z",
+    "flint-0.6.0-to-0.7.0-s8": "2026-09-28T14:37:36.688Z"
+  },
   "pending": [],
   "shards": {
-    "f": "0.2.0",
-    "foh": "0.4.0"
+    "1e540354-13a8-40b9-b9d7-70c24b663095": {
+      "spec": "shard-record/0.2",
+      "shard": "@nuucognition/flint",
+      "alias": "flint",
+      "shorthand": "f",
+      "name": "Flint",
+      "address": "@nuucognition/shard/flint",
+      "request": "@nuucognition/shard/flint",
+      "version": "0.2.0",
+      "state": {
+        "kind": "edited",
+        "hash": "ce72a31a67504f44b9ee422b7264592aa813af20b2cce12ff086f79caa006f6a"
+      },
+      "resolved": {
+        "registry": "unchecked",
+        "repo": "NUU-Cognition/shard-flint",
+        "from": "git"
+      },
+      "package": {
+        "hash": "ce72a31a67504f44b9ee422b7264592aa813af20b2cce12ff086f79caa006f6a",
+        "files": [
+          {
+            "path": "Shards/Flint/init-f.md",
+            "sha256": "9f750fff83b390d4d08b499c77505574b6a2f143a6db30c964f17ef364be2bf5"
+          },
+          {
+            "path": "Shards/Flint/knowledge/knw-f-artifacts.md",
+            "sha256": "982fe39fe5f62599e28ecc952d2606d6a2ef653ffb101e492b38f988b84e5e9c"
+          },
+          {
+            "path": "Shards/Flint/knowledge/knw-f-cli.md",
+            "sha256": "b9e772c941d6b3c6178e74f66fc38201237264b7d4ee33158c4e0c69403c359d"
+          },
+          {
+            "path": "Shards/Flint/knowledge/knw-f-migrations.md",
+            "sha256": "5477eba9bf3cb2968dd154887127942711ee59eaafbcb890493db8bf5e095297"
+          },
+          {
+            "path": "Shards/Flint/knowledge/knw-f-models.md",
+            "sha256": "6a3cb6f5831838b67a4954035f2365c8769c64f1d6b21128f9cb680f6cad1b42"
+          },
+          {
+            "path": "Shards/Flint/knowledge/knw-f-templates.md",
+            "sha256": "a0cbe61dd0eac29939403b3335349f6a8e3b45e4767dccd60af2e9bff614e66d"
+          },
+          {
+            "path": "Shards/Flint/knowledge/knw-f-types.md",
+            "sha256": "9630e3ca0bcfb226fc5f1914826b13af75916b96496f0415c9fb9e017cf76de2"
+          },
+          {
+            "path": "Shards/Flint/shard.yaml",
+            "sha256": "b73d3ff7a3e9e4282fc0d00b04a8abbe83d1e9a3025c74e6069e3deabdb7a088"
+          },
+          {
+            "path": "Shards/Flint/skills/sk-f-inbox_process.md",
+            "sha256": "c7df51cbaa571ee92b140ab4392a6f74b64743de5cb2727081f7149d5d054548"
+          },
+          {
+            "path": "Shards/Flint/skills/sk-f-inbox_send.md",
+            "sha256": "624e9dae85d27f0869f7cf4e39dc1b12e5e49830690e59d8dd20a867d769fe12"
+          },
+          {
+            "path": "Shards/Flint/skills/sk-f-init_full_update.md",
+            "sha256": "e6c8e94db6bad247e62577263ab4eb51f77da6104ae42eac181b31a4c62d7e05"
+          },
+          {
+            "path": "Shards/Flint/skills/sk-f-init_update.md",
+            "sha256": "40946f37d108679fcb9e21330f128e83f206e2412ade2dc92271ab4b071beba9"
+          },
+          {
+            "path": "Shards/Flint/skills/sk-f-migrate.md",
+            "sha256": "cd4968b4272c5947502ab2e72ae4d8a8ac38b18a032334db3833607b51825597"
+          },
+          {
+            "path": "Shards/Flint/skills/sk-f-stitch.md",
+            "sha256": "086613218b64f8166a5715ebd8924eb62eac262ebb0831b1a067d35e985b75d7"
+          },
+          {
+            "path": "Shards/Flint/templates/tmp-f-flint_init-v0.1.md",
+            "sha256": "79c4bb9c2b640b05dbf39f75c1bb65a4d592687a70bcc4563d07efe56e671efc"
+          },
+          {
+            "path": "Shards/Flint/templates/tmp-f-note-v0.1.md",
+            "sha256": "e483a8f3d04105fbbf170914b12dea13c32d005d4659bfee99ee625bc282fd08"
+          }
+        ]
+      },
+      "payloads": [],
+      "folders": [
+        "Shards/Flint"
+      ],
+      "setup": "none",
+      "migrations": {},
+      "pending": []
+    },
+    "bd9fc1e4-df84-4e9b-9f57-8bb616249efd": {
+      "spec": "shard-record/0.2",
+      "shard": "@nuucognition/orbh",
+      "alias": "orbh",
+      "shorthand": "foh",
+      "name": "Orbh",
+      "address": "@nuucognition/shard/orbh",
+      "request": "@nuucognition/shard/orbh",
+      "version": "0.4.0",
+      "state": {
+        "kind": "edited",
+        "hash": "d5e7c5a8d969a19d8687eb0796f0160733d1f6b8271da76fadd78f88e4e97c37"
+      },
+      "resolved": {
+        "registry": "unchecked",
+        "repo": "NUU-Cognition/shard-orbh",
+        "from": "git"
+      },
+      "package": {
+        "hash": "d5e7c5a8d969a19d8687eb0796f0160733d1f6b8271da76fadd78f88e4e97c37",
+        "files": [
+          {
+            "path": "Shards/Orbh/init-foh.md",
+            "sha256": "6a6a968dbb05ccdd2d42bceeefc1a7f47bac9cfcfd400a466da0fbbc29c6741d"
+          },
+          {
+            "path": "Shards/Orbh/knowledge/knw-foh-cli.md",
+            "sha256": "2c455ffe0f0c15da993df4987fa65f8106588f70174b4f4c6ef1629e2a563b92"
+          },
+          {
+            "path": "Shards/Orbh/knowledge/knw-foh-compaction.md",
+            "sha256": "ca4a32ff646e7476a3a8a0cbb06ab5aa4ceccb1d26f9d4b1b38f05caf5730549"
+          },
+          {
+            "path": "Shards/Orbh/knowledge/knw-foh-coordination.md",
+            "sha256": "b288746a5b60563d194085f1f80121f397b01370ebc65ec4328c3de49790591b"
+          },
+          {
+            "path": "Shards/Orbh/knowledge/knw-foh-internals.md",
+            "sha256": "bc7e647262a9393ae40df1fe5ea769a285607c6167a799a8420de3a3b780ae7c"
+          },
+          {
+            "path": "Shards/Orbh/knowledge/knw-foh-machinery.md",
+            "sha256": "53903f639cab49fd7e43e0e2ef75bec74f3051f1071c6b79e695351be53a5eea"
+          },
+          {
+            "path": "Shards/Orbh/knowledge/knw-foh-orchestrator.md",
+            "sha256": "ba57b4f29fba634fcc9dac640c394a100c2aeaa2ef08ed854f7d1e2aef627254"
+          },
+          {
+            "path": "Shards/Orbh/knowledge/knw-foh-page.md",
+            "sha256": "7827e5580ccda93a4ab68edc14ff17bc9f10f470b108a20f1ad34c43e968e837"
+          },
+          {
+            "path": "Shards/Orbh/knowledge/knw-foh-profiles.md",
+            "sha256": "c10e410228baf3a2a75f8683c51f902587454824fe20941ff90c9de47a09d3a3"
+          },
+          {
+            "path": "Shards/Orbh/shard.yaml",
+            "sha256": "27c0a801ebfa593ffd34a71dc104bfd084cb5962936b75fd5f4785b560cde235"
+          },
+          {
+            "path": "Shards/Orbh/skills/sk-foh-close.md",
+            "sha256": "0b13f1ea993517c97987df4db91b589712ba46ff84df46c9150885fbf1c8fdf5"
+          },
+          {
+            "path": "Shards/Orbh/skills/sk-foh-discard.md",
+            "sha256": "75ecc7295e76a467b56a503c5b698d8875a22c4e822281d13d437b9f77af64b4"
+          },
+          {
+            "path": "Shards/Orbh/templates/tmp-foh-close-v0.1.md",
+            "sha256": "996c977fa75fb69d76d0d8bac4a15cbcd838bfc34b8e40d548585716393d433d"
+          }
+        ]
+      },
+      "payloads": [],
+      "folders": [
+        "Shards/Orbh"
+      ],
+      "setup": "none",
+      "migrations": {},
+      "pending": [],
+      "held": {
+        "binding": {
+          "request": "@nuucognition/shard/orbh",
+          "hash": "d5e7c5a8d969a19d8687eb0796f0160733d1f6b8271da76fadd78f88e4e97c37"
+        }
+      }
+    }
+  },
+  "obsidian": {
+    "release": "0.7.0",
+    "commit": "108feb325ec17b00f1f92b51aae1e5d74c7d49ba",
+    "manifest": "sha256:fb50d51acc91471f2bebf8f46edcc0c7fb6fbe2fe14b78f1cc02a11f3a3cc232"
   }
 }

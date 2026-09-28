@@ -3,10 +3,18 @@
 .flint/
 .steel/
 .obsidian/
+.obsidian.bak-*/
+.obsidian.local-backup-*/
+.obsidian.unverified-*/
+.obsidian-new-*/
 .mesh/
+.orb/
 .orbh/
-.orb/spaces/local/
 Shards/(Shards) Local State/
+
+# Shards (remote-backed)
+Shards/(Dev Remote) */
+Shards/(Source Remote) */
 
 # Workspace (machine-specific)
 Workspace/Repos/
